@@ -1,0 +1,97 @@
+﻿@model PROGP2.Models.User
+
+@{
+    ViewData["Title"] = "User Claims Report";
+    var claims = Model.Claims?.ToList() ?? new List<PROGP2.Models.Claim>();
+    double total = claims.Sum(c => c.Total);
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="h3 fw-bold text-primary">User Claims Report</h1>
+            <p class="text-muted mb-0">Employee: <strong>@Model.Name</strong> (@Model.UserName) • ID: @Model.UserID</p>
+        </div>
+        <a class="btn btn-outline-secondary" asp-action="Index">Back to Users</a>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm bg-primary bg-opacity-10">
+                <div class="card-body py-3 d-flex align-items-center">
+                    <div class="rounded-circle bg-primary bg-opacity-25 p-3 me-3"></div>
+                    <div>
+                        <h4 class="fw-bold text-primary mb-0">@claims.Count</h4>
+                        <small class="text-muted">Total Claims</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm bg-success bg-opacity-10">
+                <div class="card-body py-3 d-flex align-items-center">
+                    <div class="rounded-circle bg-success bg-opacity-25 p-3 me-3"></div>
+                    <div>
+                        <h4 class="fw-bold text-success mb-0">R @total.ToString("N2")</h4>
+                        <small class="text-muted">Total to be paid</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white py-3 border-0">
+            <h5 class="card-title mb-0 fw-bold text-primary">Claims Breakdown</h5>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="ps-4">Date</th>
+                            <th>Hours</th>
+                            <th>Rate</th>
+                            <th>Total</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!claims.Any())
+                        {
+                            <tr>
+                                <td class="ps-4" colspan="5">
+                                    <span class="text-muted">No claims found for this employee.</span>
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (var c in claims)
+                            {
+                                <tr class="align-middle">
+                                    <td class="ps-4">@c.DateCreated.ToString("yyyy-MM-dd")</td>
+                                    <td class="fw-semibold">@c.Hours</td>
+                                    <td>R @c.Rate</td>
+                                    <td class="fw-bold text-primary">R @c.Total.ToString("N2")</td>
+                                    <td>
+                                        <span class="badge rounded-pill @(c.Status == "Approved" ? "bg-success" : c.Status == "Verified" ? "bg-info" : c.Status == "Declined" ? "bg-danger" : "bg-warning text-dark")">@c.Status</span>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr class="table-light">
+                            <th class="ps-4" colspan="3">Grand Total</th>
+                            <th class="fw-bold text-primary">R @total.ToString("N2")</th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

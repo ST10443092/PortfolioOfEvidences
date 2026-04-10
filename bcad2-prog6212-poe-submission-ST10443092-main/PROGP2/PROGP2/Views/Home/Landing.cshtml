@@ -1,0 +1,242 @@
+﻿@{
+    var role = Context.Session.GetString("Role");
+    var userName = Context.Session.GetString("UserName");
+    ViewData["Title"] = "Dashboard";
+}
+
+@* Bootstrap Container Fluid (Bootstrap Team, 2024) *@
+<div class="container-fluid">
+    <!-- Hero Section -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm bg-gradient" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <div class="card-body py-5 text-white">
+                    <h1 class="display-5 fw-bold mb-2">Welcome back, @userName</h1>
+                    <p class="lead mb-0 opacity-90">Contract Monthly Claim System (CMCS)</p>
+                    <small class="opacity-75">Portfolio of Evidence - PROG6212</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (role == "Employee")
+    {
+        <!-- Independent Contractor Dashboard -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3 class="mb-3 text-secondary">Independent Contractor Portal</h3>
+                <p class="text-muted">Manage your monthly claims and track submission status</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rounded-circle bg-primary bg-opacity-10 p-3 me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-file-earmark-plus text-primary" viewBox="0 0 16 16">
+                                    <path d="M8 6.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 .5-.5z" />
+                                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5 class="card-title mb-0">Create New Claim</h5>
+                            </div>
+                        </div>
+                        <p class="card-text text-muted mb-4">Submit your monthly hours worked and claim for payment approval</p>
+                        <a class="btn btn-primary w-100" asp-controller="Claims" asp-action="Create">
+                            <i class="bi bi-plus-circle me-2"></i>New Claim
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm hover-lift">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rounded-circle bg-info bg-opacity-10 p-3 me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search text-info" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h5 class="card-title mb-0">Track Claims</h5>
+                            </div>
+                        </div>
+                        <p class="card-text text-muted mb-4">Monitor the status of your submitted claims and view approval history</p>
+                        <a class="btn btn-outline-info w-100" asp-controller="Claims" asp-action="Track">
+                            <i class="bi bi-clock-history me-2"></i>View Status
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    else if (role == "HR")
+    {
+        <!-- Coordinator Dashboard -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3 class="mb-3 text-secondary">Human Resource Portal</h3>
+                <p class="text-muted">Review and verify monthly claims from independent contractors</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="card border-0 shadow-sm hover-lift">
+                    <div class="card-body p-5 text-center">
+                        <div class="rounded-circle bg-info bg-opacity-10 p-4 d-inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-clipboard-check text-info" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Manage Users and Generate reports</h4>
+                        <p class="text-muted mb-4">View and manage Lecturer, Manager and Coordinaotor data and Generate Payment Reports</p>
+                        <a class="btn btn-info btn-lg px-5" asp-controller="Users" asp-action="Index">
+                            <i class="bi bi-list-check me-2"></i>Manager Users
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else if (role == "Coordinator")
+    {
+        <!-- Coordinator Dashboard -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3 class="mb-3 text-secondary">Programme Coordinator Portal</h3>
+                <p class="text-muted">Review and verify monthly claims from independent contractors</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="card border-0 shadow-sm hover-lift">
+                    <div class="card-body p-5 text-center">
+                        <div class="rounded-circle bg-info bg-opacity-10 p-4 d-inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-clipboard-check text-info" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Verify Pending Claims</h4>
+                        <p class="text-muted mb-4">Access the claim management system to verify submissions from contractors before they go to the manager for final approval</p>
+                        <a class="btn btn-info btn-lg px-5" asp-controller="Claims" asp-action="Index">
+                            <i class="bi bi-list-check me-2"></i>Verify Claims
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else if (role == "Manager")
+    {
+        <!-- Manager Dashboard -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3 class="mb-3 text-secondary">Manager Portal</h3>
+                <p class="text-muted">Final approval of verified claims from programme coordinators</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="card border-0 shadow-sm hover-lift">
+                    <div class="card-body p-5 text-center">
+                        <div class="rounded-circle bg-success bg-opacity-10 p-4 d-inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-clipboard-check text-success" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Approve Verified Claims</h4>
+                        <p class="text-muted mb-4">Access the claim management system to give final approval to claims that have been verified by coordinators</p>
+                        <a class="btn btn-success btn-lg px-5" asp-controller="Claims" asp-action="Index">
+                            <i class="bi bi-list-check me-2"></i>Approve Claims
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Unauthorized Access -->
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-5 text-center">
+                        <div class="rounded-circle bg-warning bg-opacity-10 p-4 d-inline-block mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-shield-exclamation text-warning" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z" />
+                                <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+                            </svg>
+                        </div>
+                        <h4 class="mb-3">Access Denied</h4>
+                        <p class="text-muted">You are not authorized to access this system. Please contact your administrator for assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+        }
+
+    .card {
+        transition: all 0.3s ease;
+    }
+
+    .btn {
+        transition: all 0.3s ease;
+    }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+</style>
+
+@*
+REFERENCES
+
+Bootstrap Team (2024) Bootstrap 5.3 Documentation. Available at: 
+https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
+(Accessed: 15 January 2025)
+
+Bootstrap Team (2024) Bootstrap 5.3 Components - Cards. Available at:
+https://getbootstrap.com/docs/5.3/components/card/
+(Accessed: 15 January 2025)
+
+Bootstrap Team (2024) Bootstrap 5.3 Utilities - Flexbox. Available at:
+https://getbootstrap.com/docs/5.3/utilities/flex/
+(Accessed: 15 January 2025)
+
+Bootstrap Team (2024) Bootstrap Icons. Available at:
+https://icons.getbootstrap.com/
+(Accessed: 15 January 2025)
+
+Microsoft Corporation (2024) ASP.NET Core Session State. Available at:
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state
+(Accessed: 15 January 2025)
+
+Microsoft Corporation (2024) ASP.NET Core Razor Views. Available at:
+https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview
+(Accessed: 15 January 2025)
+*@

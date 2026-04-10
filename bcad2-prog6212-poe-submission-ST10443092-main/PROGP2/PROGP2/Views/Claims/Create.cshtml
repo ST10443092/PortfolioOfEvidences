@@ -1,0 +1,200 @@
+﻿@model PROGP2.Models.Claim
+
+@{
+    ViewData["Title"] = "Create New Claim";
+}
+
+@* Bootstrap Container Fluid (Bootstrap Team, 2024) *@
+<div class="container-fluid">
+    <!-- Header Section -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="h3 fw-bold text-primary">Create New Claim</h1>
+            <p class="text-muted mb-0">Submit a new monthly claim for hours worked</p>
+        </div>
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left me-1" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            Back to Claims
+        </a>
+    </div>
+
+    <!-- Create Claim Card -->
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white py-3 border-0">
+            <h5 class="card-title mb-0 fw-bold text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle me-2" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                </svg>
+                Claim Details
+            </h5>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" method="post" enctype="multipart/form-data" class="row g-4">
+                <!-- Hours Worked -->
+                <div class="col-md-6">
+                    <label asp-for="Hours" class="form-label fw-semibold">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock me-1 text-primary" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                        </svg>
+                        Hours Worked
+                    </label>
+                    <div class="input-group">
+                        <input asp-for="Hours" class="form-control" type="number" step="0.1" min="0" max="210" placeholder="Enter hours worked" />
+                        <span class="input-group-text bg-light">hours</span>
+                    </div>
+                    <span asp-validation-for="Hours" class="text-danger small"></span>
+                    <div class="form-text text-muted">Maximum 210 hours per claim</div>
+                </div>
+
+                <!-- Hourly Rate -->
+                <div class="col-md-6">
+                    <label asp-for="Rate" class="form-label fw-semibold">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar me-1 text-primary" viewBox="0 0 16 16">
+                            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+                        </svg>
+                        Hourly Rate
+                    </label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light">R</span>
+                        <input asp-for="Rate" class="form-control" type="number" step="0.01" min="0" placeholder="Enter hourly rate" />
+                    </div>
+                    <span asp-validation-for="Rate" class="text-danger small"></span>
+                </div>
+
+                <!-- Total Amount Display -->
+                <div class="col-12">
+                    <div class="card bg-light border-0">
+                        <div class="card-body py-3">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-primary mb-0">Total Claim Amount</h6>
+                                    <small class="text-muted">Calculated automatically</small>
+                                </div>
+                                <div class="col-md-6 text-end">
+                                    <h3 class="fw-bold text-success mb-0" id="totalAmount">R 0.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PDF Upload -->
+                <div class="col-12">
+                    <label class="form-label fw-semibold">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf me-1 text-primary" viewBox="0 0 16 16">
+                            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
+                            <path d="M4.603 14.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.697 19.697 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.218.385.218.72 0 .398-.134.636-.475.836-.338.2-.766.285-1.186.24a5.66 5.66 0 0 1-1.532-.41 9.094 9.094 0 0 0-1.087-.365l-.02-.008a.112.112 0 0 0-.067.023.159.159 0 0 0-.054.057.144.144 0 0 0-.015.085c.015.076.055.257.138.545.21.725.473 1.49.795 2.173.261.555.555 1.036.887 1.403.334.37.72.63 1.155.776.435.147.92.185 1.437.118.516-.067 1.037-.248 1.56-.552.525-.305 1.002-.73 1.432-1.239.43-.51.772-1.098 1.028-1.75.256-.653.408-1.337.454-2.004.046-.667-.015-1.308-.183-1.914a3.745 3.745 0 0 0-.584-1.206 3.067 3.067 0 0 0-.937-.849 3.779 3.779 0 0 0-1.293-.454 4.582 4.582 0 0 0-1.614.013 5.252 5.252 0 0 0-1.392.492 7.953 7.953 0 0 0-1.168.734 9.692 9.692 0 0 0-.94.793 8.348 8.348 0 0 0-.682.715 6.57 6.57 0 0 0-.465.658c-.14.23-.24.45-.3.656a1.8 1.8 0 0 0-.102.532.86.86 0 0 0 .071.352.73.73 0 0 0 .202.281.826.826 0 0 0 .283.163c.108.04.235.06.382.06.21 0 .398-.044.565-.13.167-.087.31-.204.429-.35.12-.147.224-.32.31-.518.087-.199.161-.42.221-.656.061-.236.11-.485.146-.747.036-.262.06-.534.07-.815.01-.281.007-.568-.009-.86-.016-.292-.045-.586-.087-.882z" />
+                    </label>
+                    <input type="file" name="pdfFile" class="form-control" accept=".pdf" required />
+                    <div class="form-text text-muted">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-info-circle me-1" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                        </svg>
+                        PDF required. Maximum 10MB.
+                    </div>
+                    <span asp-validation-for="RatePDF" class="text-danger small"></span>
+                </div>
+
+                <!-- User ID (Hidden) -->
+                @{
+                    var loggedInUserId = ViewData["UserID"]; 
+                }
+                @if (loggedInUserId != null)
+                {
+                    <input asp-for="UserID" type="hidden" value="@loggedInUserId" />
+                    <div class="col-12">
+                        <div class="alert alert-info d-flex align-items-center" role="alert">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle me-2" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg>
+                            <div>
+                                <strong>Submitting as User ID: @loggedInUserId</strong>
+                                <br />
+                                <small>This claim will be automatically associated with your account.</small>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <!-- Submit Button -->
+                <div class="col-12">
+                    <div class="d-flex gap-3 pt-3">
+                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle me-2" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                            </svg>
+                            Submit Claim
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                            Cancel
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Calculate total when Hours or Rate changes
+    document.addEventListener('DOMContentLoaded', function() {
+        const hoursInput = document.querySelector('input[name="Hours"]');
+        const rateInput = document.querySelector('input[name="Rate"]');
+        const totalDisplay = document.getElementById('totalAmount');
+
+        function calculateTotal() {
+            const hours = parseFloat(hoursInput.value) || 0;
+            const rate = parseFloat(rateInput.value) || 0;
+            const total = hours * rate;
+            totalDisplay.textContent = 'R ' + total.toFixed(2);
+
+            // Update color based on amount
+            if (total > 0) {
+                totalDisplay.className = 'fw-bold text-success mb-0';
+            } else {
+                totalDisplay.className = 'fw-bold text-muted mb-0';
+            }
+        }
+
+        hoursInput.addEventListener('input', calculateTotal);
+        rateInput.addEventListener('input', calculateTotal);
+
+        // Initial calculation
+        calculateTotal();
+    });
+</script>
+
+@*
+REFERENCES
+
+Bootstrap Team (2024) Bootstrap 5.3 Documentation. Available at: 
+https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
+(Accessed: 15 January 2025)
+
+Bootstrap Team (2024) Bootstrap 5.3 Forms. Available at:
+https://getbootstrap.com/docs/5.3/forms/overview/
+(Accessed: 15 January 2025)
+
+Bootstrap Team (2024) Bootstrap 5.3 Components - Cards. Available at:
+https://getbootstrap.com/docs/5.3/components/card/
+(Accessed: 15 January 2025)
+
+Bootstrap Team (2024) Bootstrap 5.3 Components - Input Groups. Available at:
+https://getbootstrap.com/docs/5.3/forms/input-group/
+(Accessed: 15 January 2025)
+
+Microsoft Corporation (2024) ASP.NET Core Razor Views. Available at:
+https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview
+(Accessed: 15 January 2025)
+
+Microsoft Corporation (2024) ASP.NET Core Model Validation. Available at:
+https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation
+(Accessed: 15 January 2025)
+*@
