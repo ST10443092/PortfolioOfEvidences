@@ -1,0 +1,54 @@
+﻿@model CLDV1.Models.Venue
+
+@{
+    ViewData["Title"] = "Edit Venue";
+}
+
+<div class="container">
+    <h1>Edit Venue</h1>
+
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <input type="hidden" asp-for="VenueId" />
+
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Location" class="control-label"></label>
+            <input asp-for="Location" class="form-control" />
+            <span asp-validation-for="Location" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Capacity" class="control-label"></label>
+            <input asp-for="Capacity" class="form-control" />
+            <span asp-validation-for="Capacity" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Venue Image</label>
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <div class="mb-2">
+                    <img src="@Model.ImageUrl" style="max-width: 200px; max-height: 200px;" class="img-thumbnail" />
+                </div>
+            }
+            <input type="file" name="imageFile" class="form-control" accept=".jpg,.jpeg,.png" />
+            <small class="text-muted">Leave empty to keep current image</small>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

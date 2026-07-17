@@ -1,0 +1,181 @@
+﻿@model IEnumerable<CLDV1.Models.Booking>
+@using CLDV1.Models
+
+@{
+    ViewData["Title"] = "Search Bookings";
+    bool hasSearched = !string.IsNullOrEmpty(Context.Request.Query["searchTerm"]) ||
+                      Context.Request.Query.ContainsKey("eventTypeId") ||
+                      Context.Request.Query.ContainsKey("startDate") ||
+                      Context.Request.Query.ContainsKey("endDate") ||
+                      Context.Request.Query.ContainsKey("onlyAvailable");
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <!-- Search Form -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form asp-action="Search" method="get" class="row g-3" id="searchForm">
+                <!-- Search Term -->
+                <div class="col-md-3">
+                    <input type="text" name="searchTerm" class="form-control"
+                           placeholder="Search..." value="@Context.Request.Query["searchTerm"]" />
+                </div>
+
+                <!-- Event Type Dropdown -->
+                <div class="col-md-2">
+                    <select name="eventTypeId" asp-items="ViewBag.EventTypes" class="form-select">
+                        <option value="">All Types</option>
+                    </select>
+                </div>
+
+                <!-- Date Range -->
+                <div class="col-md-3">
+                    <div class="input-group">
+                        <input type="date" name="startDate" class="form-control"
+                               value="@Context.Request.Query["startDate"]" />
+                        <input type="date" name="endDate" class="form-control"
+                               value="@Context.Request.Query["endDate"]" />
+                    </div>
+                </div>
+
+                <!-- Availability Checkbox -->
+                <div class="col-md-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="onlyAvailable"
+                               value="true" id="onlyAvailable"
+                        @(Context.Request.Query["onlyAvailable"] == "true" ? "checked" : "") />
+                        <label class="form-check-label" for="onlyAvailable">
+                            Available Only
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="col-md-2">
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary flex-fill">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary" id="resetBtn" title="Clear all filters">
+                            <i class="bi bi-arrow-clockwise"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Results Section -->
+    @if (hasSearched)
+    {
+        if (Model.Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Booking ID</th>
+                            <th>Date</th>
+                            <th>Event</th>
+                            <th>Type</th>
+                            <th>Venue</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var booking in Model)
+                        {
+                            <tr>
+                                <td>@booking.BookingId</td>
+                                <td>@booking.BookingDate.ToString("yyyy/MM/dd HH:mm")</td>
+                                <td>@(booking.Event?.EventName ?? "N/A")</td>
+                                <td>@(booking.Event?.EventType?.TypeName ?? "N/A")</td>
+                                <td>@(booking.Venue?.Name ?? "N/A")</td>
+                                <td>
+                                    <span class="badge @(booking.Venue?.IsAvailable == true ? "bg-success" : "bg-secondary")">
+                                        @(booking.Venue?.IsAvailable == true ? "Available" : "Booked")
+                                    </span>
+                                </td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@booking.BookingId"
+                                       class="btn btn-info btn-sm" title="Details">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning">
+                <i class="fas fa-exclamation-circle"></i> No bookings found matching your search criteria.
+            </div>
+        }
+    }
+    else
+    {
+        <div class="alert alert-info">
+            <i class="fas fa-info-circle"></i> Use the filters above to search for bookings.
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Focus search input
+            document.querySelector('input[name="searchTerm"]').focus();
+
+            // Initialize date pickers with default ranges if needed
+            const today = new Date().toISOString().split('T')[0];
+            const endDateInput = document.querySelector('input[name="endDate"]');
+            if (endDateInput) {
+                endDateInput.max = today;
+            }
+
+            // Reset button functionality
+            const resetBtn = document.getElementById('resetBtn');
+            const searchForm = document.getElementById('searchForm');
+
+            resetBtn.addEventListener('click', function() {
+                // Clear all form inputs
+                const inputs = searchForm.querySelectorAll('input[type="text"], input[type="date"]');
+                inputs.forEach(input => {
+                    input.value = '';
+                });
+
+                // Reset select dropdown
+                const select = searchForm.querySelector('select[name="eventTypeId"]');
+                if (select) {
+                    select.selectedIndex = 0;
+                }
+
+                // Uncheck checkbox
+                const checkbox = searchForm.querySelector('input[name="onlyAvailable"]');
+                if (checkbox) {
+                    checkbox.checked = false;
+                }
+
+                // Redirect to clear URL parameters
+                window.location.href = window.location.pathname;
+            });
+
+            // Add visual feedback for reset button
+            resetBtn.addEventListener('mouseenter', function() {
+                this.classList.add('btn-outline-danger');
+                this.classList.remove('btn-outline-secondary');
+            });
+
+            resetBtn.addEventListener('mouseleave', function() {
+                this.classList.remove('btn-outline-danger');
+                this.classList.add('btn-outline-secondary');
+            });
+        });
+    </script>
+}

@@ -1,0 +1,46 @@
+﻿@model CLDV1.Models.Venue
+
+@{
+    ViewData["Title"] = "Add Venue";
+}
+
+<div style="max-width: 600px; margin: 2rem auto; padding: 2rem; border: 1px solid #e0e0e0; border-radius: 4px; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+    <h2 style="color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">Add New Venue</h2>
+
+    <form asp-action="Create" enctype="multipart/form-data" style="display: grid; gap: 1.2rem;">
+        <div>
+            <label asp-for="Name" style="display: block; margin-bottom: 0.3rem; color: #2c3e50; font-weight: 500;">Venue Name</label>
+            <input asp-for="Name" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 3px;">
+            <span asp-validation-for="Name" style="color: #e74c3c; font-size: 0.85rem;"></span>
+        </div>
+
+        <div>
+            <label asp-for="Location" style="display: block; margin-bottom: 0.3rem; color: #2c3e50; font-weight: 500;">Location</label>
+            <input asp-for="Location" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 3px;">
+            <span asp-validation-for="Location" style="color: #e74c3c; font-size: 0.85rem;"></span>
+        </div>
+
+        <div>
+            <label asp-for="Capacity" style="display: block; margin-bottom: 0.3rem; color: #2c3e50; font-weight: 500;">Capacity</label>
+            <input asp-for="Capacity" type="number" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 3px;">
+            <span asp-validation-for="Capacity" style="color: #e74c3c; font-size: 0.85rem;"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ImageFile" class="control-label">Venue Image</label>
+            <input asp-for="ImageFile" type="file" class="form-control" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+            <button type="submit" style="padding: 0.5rem 1.5rem; background: #3498db; color: white; border: none; border-radius: 3px; cursor: pointer;">Save Venue</button>
+            <a asp-action="Index" style="padding: 0.5rem 1.5rem; color: #3498db; border: 1px solid #3498db; border-radius: 3px; text-decoration: none; text-align: center;">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

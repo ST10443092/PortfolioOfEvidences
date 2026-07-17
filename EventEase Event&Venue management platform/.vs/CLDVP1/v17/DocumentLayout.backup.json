@@ -1,0 +1,544 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\bookings\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\bookings\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\bookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\bookings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\bookings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\bookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\bookings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\data\\cldvp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\data\\cldvp1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\models\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\models\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\controllers\\azurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\controllers\\azurestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\interface\\iblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\interface\\iblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\migrations\\20250613133746_updateeventtypeprimarykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\migrations\\20250613133746_updateeventtypeprimarykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\migrations\\20250613131443_addeventtypeandvenueavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\migrations\\20250613131443_addeventtypeandvenueavailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\migrations\\20250613144022_addeventtypeidtoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\migrations\\20250613144022_addeventtypeidtoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|c:\\users\\qhawe\\desktop\\poes\\cldv6211poe\\part 3\\cldvp3\\cldvp3\\cldvp3\\cldvp1\\migrations\\20250613141434_updateeventtypeseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823658-C850-430F-976C-D7019F816539}|CLDVP1\\CLDVP1.csproj|solutionrelative:cldvp1\\migrations\\20250613141434_updateeventtypeseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAowF4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T14:06:57.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\appsettings.json",
+              "RelativeDocumentMoniker": "CLDVP1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\appsettings.json",
+              "RelativeToolTip": "CLDVP1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAADPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T13:02:01.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "CLDVP1\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswAYBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:55:52.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Models\\Venue.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\Venue.cs",
+              "RelativeToolTip": "CLDVP1\\Models\\Venue.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA4wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:08:58.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Bookings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Bookings\\Index.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T17:57:26.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF8CAAAAAAAAAAAAwGwCAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T07:15:47.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Bookings\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAADwv5AAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T16:51:56.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Bookings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Edit.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Bookings\\Edit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T18:34:19.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Search.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Bookings\\Search.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Search.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Bookings\\Search.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwLQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T13:27:01.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Events\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Events\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Events\\Edit.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Events\\Edit.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:22:04.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CLDVP1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\appsettings.Development.json",
+              "RelativeToolTip": "CLDVP1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T19:11:07.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "CLDVP1\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:56:30.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VenuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\VenuesController.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Controllers\\VenuesController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\VenuesController.cs",
+              "RelativeToolTip": "CLDVP1\\Controllers\\VenuesController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowI0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:56:49.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Details.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Bookings\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Bookings\\Details.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Bookings\\Details.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwNEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T19:12:48.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CLDVP1Context.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Data\\CLDVP1Context.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Data\\CLDVP1Context.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Data\\CLDVP1Context.cs",
+              "RelativeToolTip": "CLDVP1\\Data\\CLDVP1Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:13:40.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\Booking.cs",
+              "RelativeToolTip": "CLDVP1\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T16:58:44.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CLDVP1\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T22:20:27.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250613144022_AddEventTypeIdToEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613144022_AddEventTypeIdToEvent.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Migrations\\20250613144022_AddEventTypeIdToEvent.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613144022_AddEventTypeIdToEvent.cs",
+              "RelativeToolTip": "CLDVP1\\Migrations\\20250613144022_AddEventTypeIdToEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T14:40:22.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventType.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\EventType.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Models\\EventType.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\EventType.cs",
+              "RelativeToolTip": "CLDVP1\\Models\\EventType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:12:46.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\Event.cs",
+              "RelativeToolTip": "CLDVP1\\Models\\Event.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T17:08:04.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250613141434_UpdateEventTypeSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613141434_UpdateEventTypeSeed.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Migrations\\20250613141434_UpdateEventTypeSeed.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613141434_UpdateEventTypeSeed.cs",
+              "RelativeToolTip": "CLDVP1\\Migrations\\20250613141434_UpdateEventTypeSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T14:14:35.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Events\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Events\\Details.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Events\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:27:37.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AzureStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\AzureStorageService.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Controllers\\AzureStorageService.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\AzureStorageService.cs",
+              "RelativeToolTip": "CLDVP1\\Controllers\\AzureStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T12:55:48.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CLDVP1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:57:00.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250613133746_UpdateEventTypePrimaryKey.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613133746_UpdateEventTypePrimaryKey.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Migrations\\20250613133746_UpdateEventTypePrimaryKey.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613133746_UpdateEventTypePrimaryKey.cs",
+              "RelativeToolTip": "CLDVP1\\Migrations\\20250613133746_UpdateEventTypePrimaryKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:37:46.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250613131443_AddEventTypeAndVenueAvailability.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613131443_AddEventTypeAndVenueAvailability.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Migrations\\20250613131443_AddEventTypeAndVenueAvailability.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Migrations\\20250613131443_AddEventTypeAndVenueAvailability.cs",
+              "RelativeToolTip": "CLDVP1\\Migrations\\20250613131443_AddEventTypeAndVenueAvailability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:14:44.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CLDVP1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:50:34.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T17:58:33.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Program.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Program.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Program.cs",
+              "RelativeToolTip": "CLDVP1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:22:29.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IBlobService.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Interface\\IBlobService.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Interface\\IBlobService.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Interface\\IBlobService.cs",
+              "RelativeToolTip": "CLDVP1\\Interface\\IBlobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:50:45.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "CLDVP1\\Services\\BlobService.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Services\\BlobService.cs",
+              "RelativeToolTip": "CLDVP1\\Services\\BlobService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:51:31.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CLDVP1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Desktop\\POEs\\CLDV6211POE\\Part 3\\CLDVP3\\CLDVP3\\CLDVP3\\CLDVP1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CLDVP1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T17:58:28.966Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

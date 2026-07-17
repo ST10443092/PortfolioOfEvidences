@@ -1,0 +1,89 @@
+﻿@model CLDV1.Models.Booking
+
+@{
+    ViewData["Title"] = "Delete Booking";
+}
+
+<div class="portal-header text-center mb-4">
+    <div class="container">
+        <h1 class="display-6 fw-bold">Delete Booking</h1>
+        <p class="lead mb-0">Confirm removal of this booking record</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card shadow-sm border-0 rounded-3">
+        <div class="card-body">
+            <div class="alert alert-warning mb-4">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                <strong>Warning:</strong> This action cannot be undone.
+            </div>
+
+            <h4 class="fw-bold mb-4">Booking Details</h4>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <div class="detail-card p-3 rounded-2 bg-light">
+                        <dt class="text-muted small">@Html.DisplayNameFor(model => model.BookingDate)</dt>
+                        <dd class="fs-5 fw-semibold">@Html.DisplayFor(model => model.BookingDate)</dd>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="detail-card p-3 rounded-2 bg-light">
+                        <dt class="text-muted small">@Html.DisplayNameFor(model => model.Event)</dt>
+                        <dd class="fs-5 fw-semibold">@Html.DisplayFor(model => model.Event.EventName)</dd>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="detail-card p-3 rounded-2 bg-light">
+                        <dt class="text-muted small">@Html.DisplayNameFor(model => model.Venue)</dt>
+                        <dd class="fs-5 fw-semibold">@Html.DisplayFor(model => model.Venue.Name)</dd>
+                    </div>
+                </div>
+            </div>
+
+            <form asp-action="Delete" class="mt-4">
+                <input type="hidden" asp-for="BookingId" />
+
+                <div class="d-flex gap-3">
+                    <button type="submit" class="btn btn-danger px-4 py-2">
+                        <i class="bi bi-trash-fill me-2"></i>Confirm Delete
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2">
+                        <i class="bi bi-arrow-left me-2"></i>Back to List
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .portal-header {
+        background: linear-gradient(135deg, #4361ee, #3f37c9);
+        color: white;
+        padding: 2rem 0;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .detail-card {
+        transition: all 0.2s ease;
+        border-left: 3px solid #4361ee;
+    }
+
+        .detail-card:hover {
+            background: rgba(67, 97, 238, 0.05) !important;
+        }
+
+    .btn-danger {
+        background-color: #e63946;
+        border-color: #e63946;
+    }
+
+        .btn-danger:hover {
+            background-color: #d62839;
+            border-color: #d62839;
+        }
+</style>
