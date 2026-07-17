@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\",
+  "WorkspaceRootPath": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\users\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\users\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\users\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\home\\landing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Claims/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -33,90 +33,90 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyAppDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\claims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\claims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\claims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\claims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\claims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\claims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F020838-0E73-4FFA-9C7D-F0A0399C9DDC}|PROGP2.Tests\\PROGP2.Tests.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2.tests\\claimscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F020838-0E73-4FFA-9C7D-F0A0399C9DDC}|PROGP2.Tests\\PROGP2.Tests.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2.tests\\claimscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F020838-0E73-4FFA-9C7D-F0A0399C9DDC}|PROGP2.Tests\\PROGP2.Tests.csproj|solutionrelative:progp2.tests\\claimscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\claims\\track.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\claims\\track.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\claims\\track.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F020838-0E73-4FFA-9C7D-F0A0399C9DDC}|PROGP2.Tests\\PROGP2.Tests.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F020838-0E73-4FFA-9C7D-F0A0399C9DDC}|PROGP2.Tests\\PROGP2.Tests.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F020838-0E73-4FFA-9C7D-F0A0399C9DDC}|PROGP2.Tests\\PROGP2.Tests.csproj|solutionrelative:progp2.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\home\\claimsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\home\\claimsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\home\\claimsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\claims\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\claims\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\claims\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Qhawe\\AppData\\Local\\Temp\\pys0jhe0..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\lab_services_student\\documents\\github\\bcad2-prog6212-poe-submission-st10443092\\progp2\\progp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-prog6212-poe-submission-st10443092-main\\progp2\\progp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A62A854C-A0FA-41AE-AC46-9FD77E6D154C}|PROGP2\\PROGP2.csproj|solutionrelative:progp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -127,28 +127,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Report.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Report.cshtml",
-              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Report.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Report.cshtml",
-              "RelativeToolTip": "PROGP2\\Views\\Users\\Report.cshtml",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-31T09:21:09.234Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Users.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Claims/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Claims/True/SqlTable/dbo.Users.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-31T08:57:33.114Z"
+              "DocumentIndex": 18,
+              "Title": "ClaimSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
+              "RelativeDocumentMoniker": "PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
+              "RelativeToolTip": "PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T16:59:36.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Track.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Track.cshtml",
+              "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Track.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Track.cshtml",
+              "RelativeToolTip": "PROGP2\\Views\\Claims\\Track.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T18:36:44.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "PROGP2\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAcwFIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T07:03:26.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "PROGP2\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T07:03:18.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "PROGP2\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T07:03:11.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PROGP2\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PROGP2\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T08:56:41.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Controllers\\ClaimsController.cs",
+              "RelativeDocumentMoniker": "PROGP2\\Controllers\\ClaimsController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Controllers\\ClaimsController.cs",
+              "RelativeToolTip": "PROGP2\\Controllers\\ClaimsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAkwFUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:49:55.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "PROGP2.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "PROGP2.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:42:46.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClaimsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2.Tests\\ClaimsControllerTests.cs",
+              "RelativeDocumentMoniker": "PROGP2.Tests\\ClaimsControllerTests.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2.Tests\\ClaimsControllerTests.cs",
+              "RelativeToolTip": "PROGP2.Tests\\ClaimsControllerTests.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:53:47.358Z"
             },
             {
               "$type": "Document",
@@ -161,95 +254,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ClaimsControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2.Tests\\ClaimsControllerTests.cs",
-              "RelativeDocumentMoniker": "PROGP2.Tests\\ClaimsControllerTests.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2.Tests\\ClaimsControllerTests.cs",
-              "RelativeToolTip": "PROGP2.Tests\\ClaimsControllerTests.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:53:47.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "PROGP2.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "PROGP2.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:42:46.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ClaimSuccess.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
-              "RelativeDocumentMoniker": "PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
-              "RelativeToolTip": "PROGP2\\Views\\Home\\ClaimSuccess.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T16:59:36.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Track.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Track.cshtml",
-              "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Track.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Track.cshtml",
-              "RelativeToolTip": "PROGP2\\Views\\Claims\\Track.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-18T18:36:44.687Z"
+              "DocumentIndex": 6,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Claims/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Claims/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-31T08:57:33.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "PROGP2\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAcwFIAAAAyAAAAAAAAAA==",
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Report.cshtml",
+              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Report.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Report.cshtml",
+              "RelativeToolTip": "PROGP2\\Views\\Users\\Report.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T07:03:26.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Edit.cshtml",
-              "RelativeToolTip": "PROGP2\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T07:03:18.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Details.cshtml",
-              "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Details.cshtml",
-              "RelativeToolTip": "PROGP2\\Views\\Users\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T07:03:11.175Z"
+              "WhenOpened": "2025-10-31T09:21:09.234Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Delete.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Users\\Delete.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwCgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -259,9 +289,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Users\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Users\\Create.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Users\\Create.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -272,9 +302,9 @@
               "DocumentIndex": 28,
               "Title": "pys0jhe0..sql",
               "DocumentMoniker": "C:\\Users\\Qhawe\\AppData\\Local\\Temp\\pys0jhe0..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Qhawe\\AppData\\Local\\Temp\\pys0jhe0..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\pys0jhe0..sql",
               "ToolTip": "C:\\Users\\Qhawe\\AppData\\Local\\Temp\\pys0jhe0..sql",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Qhawe\\AppData\\Local\\Temp\\pys0jhe0..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\pys0jhe0..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-10-17T06:48:07.907Z"
             },
@@ -282,9 +312,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Index.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Index.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Claims\\Index.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAAL4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -294,9 +324,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Details.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Details.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Claims\\Details.cshtml",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAH4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -306,9 +336,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Edit.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Edit.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Claims\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -318,9 +348,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Delete.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Delete.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Claims\\Delete.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAIBJwCAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -330,9 +360,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Create.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Claims\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Claims\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Claims\\Create.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Claims\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -340,11 +370,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Landing.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\Landing.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\Landing.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Home\\Landing.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\Landing.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\Landing.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Home\\Landing.cshtml",
               "ViewState": "AgIAAFAAAAAAmZmZmZkswGsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -354,9 +384,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -366,9 +396,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAOMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -378,9 +408,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PROGP2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "PROGP2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAUwCgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -388,11 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "PROGP2\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Controllers\\UsersController.cs",
               "RelativeToolTip": "PROGP2\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAAALAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -400,23 +430,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClaimsController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Controllers\\ClaimsController.cs",
-              "RelativeDocumentMoniker": "PROGP2\\Controllers\\ClaimsController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Controllers\\ClaimsController.cs",
-              "RelativeToolTip": "PROGP2\\Controllers\\ClaimsController.cs",
-              "ViewState": "AgIAAGYBAAAAAAAAAAAuwIABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T15:49:55.255Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PROGP2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PROGP2\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -426,9 +444,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Program.cs",
               "RelativeDocumentMoniker": "PROGP2\\Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Program.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Program.cs",
               "RelativeToolTip": "PROGP2\\Program.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAUwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -438,9 +456,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\appsettings.json",
               "RelativeDocumentMoniker": "PROGP2\\appsettings.json",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\appsettings.json",
               "RelativeToolTip": "PROGP2\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -448,24 +466,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "PROGP2\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\ApplicationDbContext.cs",
-              "RelativeToolTip": "PROGP2\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T08:56:41.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Models\\User.cs",
               "RelativeDocumentMoniker": "PROGP2\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Models\\User.cs",
               "RelativeToolTip": "PROGP2\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -475,9 +480,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Claim.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Models\\Claim.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Models\\Claim.cs",
               "RelativeDocumentMoniker": "PROGP2\\Models\\Claim.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092\\PROGP2\\PROGP2\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-prog6212-poe-submission-ST10443092-main\\PROGP2\\PROGP2\\Models\\Claim.cs",
               "RelativeToolTip": "PROGP2\\Models\\Claim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
