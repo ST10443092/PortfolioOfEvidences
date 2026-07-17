@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+        <!--(Android Developers, n.d.)-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Monthly Goal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etMinGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minimum Goal (Spent)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+        <!--(Android Developers, n.d.)-->
+        <EditText
+            android:id="@+id/etMaxGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Maximum Goal (Spent)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date"
+            android:layout_gravity="start"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/etStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YYYY-MM-DD"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginBottom="16dp"/>
+        <!--(Android Developers, n.d.)-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Date"
+            android:layout_gravity="start"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/etEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YYYY-MM-DD"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginBottom="24dp"/>
+        <!--(Android Developers, n.d.)-->
+        <Button
+            android:id="@+id/btnSaveGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Goal"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnViewAllGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Goals"
+            android:backgroundTint="#3F8EFC"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
+    <!--Reference List
+    Android Developers (n.d.) Button. Available at: https://developer.android.com/reference/android/widget/Button
+     (Accessed: 19 April 2026).
+     Android Developers (n.d.) EditText. Available at: https://developer.android.com/reference/android/widget/EditText
+     (Accessed: 19 April 2026).
+    Android Developers (n.d.) TextView. Available at: https://developer.android.com/reference/android/widget/TextView
+     (Accessed: 19 April 2026).
+     -->

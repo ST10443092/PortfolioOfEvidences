@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!--(Android Developers, n.d.)-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense Summary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+        <!--(Android Developers, n.d.)-->
+        <EditText
+            android:id="@+id/etFilterStartDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Start Date"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/etFilterEndDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="End Date"
+            android:focusable="false"
+            android:clickable="true"/>
+    </LinearLayout>
+    <!--(Android Developers, n.d.)-->
+    <Button
+        android:id="@+id/btnApplyFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter Summary"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnClearFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Filters"
+        android:layout_marginBottom="16dp"/>
+    <!--(Android Developers, n.d.)-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category Totals"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCategoryTotals"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detailed Expenses"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDetailedExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+    <!--Reference List
+    Android Developers (n.d.) Button. Available at: https://developer.android.com/reference/android/widget/Button
+     (Accessed: 19 April 2026).
+     Android Developers (n.d.) EditText. Available at: https://developer.android.com/reference/android/widget/EditText
+     (Accessed: 19 April 2026).
+    Android Developers (n.d.) TextView. Available at: https://developer.android.com/reference/android/widget/TextView
+     (Accessed: 19 April 2026).
+     -->

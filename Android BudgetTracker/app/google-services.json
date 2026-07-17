@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426796391481",
+    "project_id": "imalify-budgeting",
+    "storage_bucket": "imalify-budgeting.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426796391481:android:09df0d9284c5c1bdcf81e8",
+        "android_client_info": {
+          "package_name": "PRO7311.Budget"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBQ_MGGMFQC0rpEDX4f1HW1U-uBObOe2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426796391481:android:bc1ce9c86505ae9bcf81e8",
+        "android_client_info": {
+          "package_name": "com.example.prog7313p1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBQ_MGGMFQC0rpEDX4f1HW1U-uBObOe2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

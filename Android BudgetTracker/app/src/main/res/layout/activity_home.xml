@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--(Android Developers, n.d.)-->
+    <!-- HEADER -->
+    <TextView
+        android:id="@+id/tvHomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iMalify"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2B2B2B"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- LOGO -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/tvHomeTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- MAIN CARD -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Total spent"
+                android:textColor="#6B6B6B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvTotalSpent"
+                android:text="R 0.00"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- CATEGORY SPEND GRAPH -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGraph"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="12dp"
+        app:layout_constraintTop_toBottomOf="@id/cardMain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Spending by category"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etGraphStartDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Start date"
+                    android:focusable="false"
+                    android:inputType="none"/>
+
+                <EditText
+                    android:id="@+id/etGraphEndDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:hint="End date"
+                    android:focusable="false"
+                    android:inputType="none"/>
+            </LinearLayout>
+
+            <com.example.prog7313p1.CategorySpendGraphView
+                android:id="@+id/categorySpendGraph"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvGraphLegend"
+                android:text="Blue bars: spent  Orange: min goal  Red: max goal"
+                android:textSize="11sp"
+                android:textColor="#6B6B6B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- RECENT TITLE -->
+    <TextView
+        android:id="@+id/tvRecentTitle"
+        android:text="Recent Expenses"
+        android:textStyle="bold"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardGraph"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- RECENT CARD -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardRecent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="12dp"
+        app:layout_constraintTop_toBottomOf="@id/tvRecentTitle"
+        app:layout_constraintBottom_toTopOf="@id/btnAddCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvRecentAmount"
+                android:text="R 0.00"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvRecentDate"
+                android:text="No date"
+                android:textColor="#6B6B6B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <!--(Android Developers, n.d.)-->
+            <TextView
+                android:id="@+id/tvRecentNotes"
+                android:text="No recent expense"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imgRecentReceipt"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- BUTTONS -->
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        app:layout_constraintBottom_toTopOf="@id/btnViewMonthlyGoals"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnViewSummary"
+        app:layout_constraintWidth_percent="0.48"/>
+
+    <Button
+        android:id="@+id/btnViewSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Summary"
+        app:layout_constraintBottom_toTopOf="@id/btnViewMonthlyGoals"
+        app:layout_constraintStart_toEndOf="@id/btnAddCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.48"/>
+
+    <Button
+        android:id="@+id/btnViewMonthlyGoals"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Monthly Goals"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/btnViewExpenses"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <!--(Android Developers, n.d.)-->
+    <Button
+        android:id="@+id/btnViewExpenses"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Expenses"
+        android:backgroundTint="#3F8EFC"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/btnAddExpense"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        android:backgroundTint="#5A43A5"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--Reference List
+    Android Developers (n.d.) Button. Available at: https://developer.android.com/reference/android/widget/Button
+     (Accessed: 19 April 2026).
+    Android Developers (n.d.) TextView. Available at: https://developer.android.com/reference/android/widget/TextView
+     (Accessed: 19 April 2026).
+     -->
