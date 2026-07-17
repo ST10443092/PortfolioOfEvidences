@@ -1,0 +1,481 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\controllers\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\controllers\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\functionapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\functionapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\orders\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\orders\\customer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-poe-submission-st10443092\\cldv6212p2\\cldv6212p1\\cldv6212p1\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C90D3D9-1632-4410-9F61-3BDA2CAC24E3}|CLDV6212P1\\CLDV6212P1.csproj|solutionrelative:cldv6212p1\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T18:14:10.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T11:41:56.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "CLDV6212P1\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwJYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T16:58:09.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAIYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T16:31:14.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\User.cs",
+              "RelativeToolTip": "CLDV6212P1\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T17:01:48.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAuwLIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T19:08:12.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\CartItem.cs",
+              "RelativeToolTip": "CLDV6212P1\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T18:59:08.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Controllers\\Cart.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Controllers\\Cart.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Controllers\\Cart.cs",
+              "RelativeToolTip": "CLDV6212P1\\Controllers\\Cart.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T18:59:22.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T17:50:43.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwGEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T19:08:37.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "CLDV6212P1\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T19:10:21.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CLDV6212P1\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T17:09:00.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FunctionApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\FunctionApiService.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\FunctionApiService.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\FunctionApiService.cs",
+              "RelativeToolTip": "CLDV6212P1\\FunctionApiService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:36:23.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Program.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Program.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Program.cs",
+              "RelativeToolTip": "CLDV6212P1\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T14:31:37.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Customer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Customer.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Orders\\Customer.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Customer.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Orders\\Customer.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T17:14:04.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T14:05:16.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\appsettings.json",
+              "RelativeDocumentMoniker": "CLDV6212P1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\appsettings.json",
+              "RelativeToolTip": "CLDV6212P1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T10:02:28.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "CLDV6212P1\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T09:58:37.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T09:57:30.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T09:57:01.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T11:41:51.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T11:41:48.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\Orders.cs",
+              "RelativeToolTip": "CLDV6212P1\\Models\\Orders.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T10:44:17.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T18:04:07.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T17:54:05.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T17:53:55.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "CLDV6212P1\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T17:53:39.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CLDV6212P1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-poe-submission-ST10443092\\CLDV6212P2\\CLDV6212P1\\CLDV6212P1\\Models\\Product.cs",
+              "RelativeToolTip": "CLDV6212P1\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:51:28.781Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

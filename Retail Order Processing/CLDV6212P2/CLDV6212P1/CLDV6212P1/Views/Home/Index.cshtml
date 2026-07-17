@@ -1,0 +1,244 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "CR7 Official Store";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #000000, #1a1a1a);
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        min-height: 100vh;
+    }
+
+    .hero-banner {
+        background: url('https://wallpapers.com/images/hd/cristiano-ronaldo-portugal-national-team-4k-9f8n8b5fzq8p4n1v.jpg') center/cover no-repeat;
+        padding: 120px 20px;
+        border-radius: 16px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+
+        .hero-banner::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            border-radius: 16px;
+        }
+
+        .hero-banner h1,
+        .hero-banner p {
+            position: relative;
+            z-index: 2;
+        }
+
+    .cr7-title {
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        font-size: 4rem;
+        background: linear-gradient(45deg, #d4af37, #ffd700, #006600);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    }
+
+    .btn-gold {
+        background: linear-gradient(45deg, #d4af37, #f0e68c);
+        color: #111;
+        border: none;
+        font-weight: bold;
+        padding: 12px 30px;
+        border-radius: 50px;
+        transition: 0.3s ease;
+    }
+
+        .btn-gold:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+    .product-card {
+        border: none;
+        border-radius: 16px;
+        background: #fff;
+        color: #111;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+    .card-img-top-container {
+        position: relative;
+        height: 220px;
+        background: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .product-image {
+        max-height: 100%;
+        width: auto;
+        object-fit: contain;
+        transition: transform 0.4s ease;
+        padding: 10px;
+    }
+
+    .product-card:hover .product-image {
+        transform: scale(1.1);
+    }
+
+    .price {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #DA291C;
+        font-family: 'Cinzel', serif;
+    }
+
+    .stock-badge {
+        font-size: 0.75rem;
+        padding: 5px 10px;
+        border-radius: 12px;
+    }
+
+    .btn-primary {
+        background: linear-gradient(45deg, #DA291C, #00529F);
+        border: none;
+        border-radius: 25px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(218, 41, 28, 0.4);
+            background: linear-gradient(45deg, #00529F, #DA291C);
+        }
+
+    .text-gold {
+        color: #d4af37;
+    }
+
+    /* Floating cart icon */
+    .floating-cart {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: linear-gradient(45deg, #DA291C, #00529F);
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        font-size: 28px;
+        z-index: 999;
+        transition: 0.3s ease;
+    }
+
+        .floating-cart:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px rgba(212,175,55,0.6);
+        }
+</style>
+
+<div class="container-fluid">
+    <!-- Hero Banner -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+    <div class="hero-banner text-center text-white mb-5">
+        <h1 class="display-3 fw-bold cr7-title">The 7th Era</h1>
+        <p class="lead">Luxury • Performance • Legacy</p>
+
+        @if (User.Identity != null && User.Identity.IsAuthenticated)
+        {
+            var userRole = Context.Session.GetString("UserRole");
+            if (!string.Equals(userRole, "Customer", StringComparison.OrdinalIgnoreCase))
+            {
+                <a asp-action="Create" class="btn btn-lg btn-gold mt-3">
+                    <i class="fas fa-plus"></i> Add New Product
+                </a>
+            }
+        }
+    </div>
+
+    <!-- Product Grid -->
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card h-100 product-card">
+                    <div class="card-img-top-container">
+                        <img src="@item.ImageUrl" class="card-img-top product-image" alt="@item.Name"
+                             onerror="this.src='https://via.placeholder.com/300x200?text=CR7+Product'">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-truncate" title="@item.Description">@item.Description</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">@item.Price.ToString("C")</span>
+                            <span class="badge @(item.StockQuantity > 0 ? "bg-success" : "bg-warning") stock-badge">
+                                @(item.StockQuantity > 0 ? "In Stock" : "Low Stock")
+                            </span>
+                        </div>
+
+                        <!-- 🔹 Size dropdown + Add to Cart -->
+                        <form asp-controller="Cart" asp-action="Add" method="get">
+                            <input type="hidden" name="productId" value="@item.RowKey" />
+                            <input type="hidden" name="productName" value="@item.Name" />
+                            <input type="hidden" name="unitPrice" value="@item.Price" />
+                            <input type="hidden" name="imageUrl" value="@item.ImageUrl" />
+
+                            <div class="form-group mt-2">
+                                <select name="size" class="form-select form-select-sm" required>
+                                    <option value="">Select Size</option>
+                                    <option value="S">Small</option>
+                                    <option value="M">Medium</option>
+                                    <option value="L">Large</option>
+                                    <option value="XL">Extra Large</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block mt-3 w-100">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Floating Cart Icon -->
+    <a href="@Url.Action("Index", "Cart")" class="floating-cart" title="View Cart">
+        <i class="fas fa-shopping-cart"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 mb-3">
+        <p class="text-gold mb-0">© 2025 CR7 Official Store. All Rights Reserved.</p>
+    </footer>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}

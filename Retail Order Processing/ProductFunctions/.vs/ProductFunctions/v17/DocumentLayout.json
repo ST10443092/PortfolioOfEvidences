@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\blobtriggeredfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\blobtriggeredfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\contractuploadfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\contractuploadfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\orderfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\orderfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\tablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\productfunctions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\productfunctions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|c:\\users\\qhawe\\documents\\github\\bcad2-cldv6212-part-2-submission-st10443092\\productfunctions\\productfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC0364F-08E9-4802-AF68-DD9C660BD9BE}|ProductFunctions\\ProductFunctions.csproj|solutionrelative:productfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Orders.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\Orders.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Orders.cs",
+              "RelativeToolTip": "ProductFunctions\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:11:07.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\OrderFunctions.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\OrderFunctions.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\OrderFunctions.cs",
+              "RelativeToolTip": "ProductFunctions\\OrderFunctions.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwEwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:09:56.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TableFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\TableFunction.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\TableFunction.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\TableFunction.cs",
+              "RelativeToolTip": "ProductFunctions\\TableFunction.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:42:38.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContractUploadFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\ContractUploadFunction.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\ContractUploadFunction.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\ContractUploadFunction.cs",
+              "RelativeToolTip": "ProductFunctions\\ContractUploadFunction.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwFEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:30:58.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductFunctions.csproj",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\ProductFunctions.csproj",
+              "RelativeDocumentMoniker": "ProductFunctions\\ProductFunctions.csproj",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\ProductFunctions.csproj",
+              "RelativeToolTip": "ProductFunctions\\ProductFunctions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-02T20:15:05.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlobTriggeredFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\BlobTriggeredFunction.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\BlobTriggeredFunction.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\BlobTriggeredFunction.cs",
+              "RelativeToolTip": "ProductFunctions\\BlobTriggeredFunction.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:26:04.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\local.settings.json",
+              "RelativeDocumentMoniker": "ProductFunctions\\local.settings.json",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\local.settings.json",
+              "RelativeToolTip": "ProductFunctions\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-02T20:19:04.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Program.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\Program.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Program.cs",
+              "RelativeToolTip": "ProductFunctions\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:03:50.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Product.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\Product.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Product.cs",
+              "RelativeToolTip": "ProductFunctions\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:02:35.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Function1.cs",
+              "RelativeDocumentMoniker": "ProductFunctions\\Function1.cs",
+              "ToolTip": "C:\\Users\\Qhawe\\Documents\\GitHub\\bcad2-cldv6212-part-2-submission-ST10443092\\ProductFunctions\\ProductFunctions\\Function1.cs",
+              "RelativeToolTip": "ProductFunctions\\Function1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T17:54:24.745Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

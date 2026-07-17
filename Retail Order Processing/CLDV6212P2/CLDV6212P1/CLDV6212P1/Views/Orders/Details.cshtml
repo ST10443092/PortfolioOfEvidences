@@ -1,0 +1,38 @@
+﻿@model Order
+
+<h2>Order Confirmation</h2>
+
+<div class="order-details">
+    <h4>Order #@Model.RowKey</h4>
+    <dl>
+        <dt>Status:</dt>
+        <dd>@Model.Status</dd>
+
+        <dt>Product:</dt>
+        <dd>@Model.ProductName</dd>
+
+        <dt>Customer Name:</dt>
+        <dd>@Model.CustomerName</dd>
+
+        <dt>Customer Email:</dt>
+        <dd>@Model.CustomerEmail</dd>
+
+        <dt>Customer Address</dt>
+        <dd>@Model.CustomerAdress</dd>
+
+        <dt>Customer Cell Number:</dt>
+        <dd>@Model.CustomerNumber</dd>
+
+        <dt>Size:</dt>
+        <dd>@Model.Size</dd>
+
+        <dt>Quantity:</dt>
+        <dd>@Model.Quantity</dd>
+
+        <dt>Total Price:</dt>
+        <dd>@Model.TotalPrice.ToString("C")</dd>
+
+        <dt>Order Date:</dt>
+        <dd>@Model.OrderDate.ToString("f")</dd>
+    </dl>
+</div>

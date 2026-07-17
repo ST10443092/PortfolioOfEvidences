@@ -1,0 +1,57 @@
+﻿@model Order
+
+<h2>Place Order</h2>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <input type="hidden" asp-for="ProductId" />
+    <input type="hidden" asp-for="ProductName" />
+    <input type="hidden" asp-for="TotalPrice" />
+
+    <div class="form-group">
+        <label asp-for="CustomerName"></label>
+        <input asp-for="CustomerName" class="form-control" />
+        <span asp-validation-for="CustomerName"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomerEmail"></label>
+        <input asp-for="CustomerEmail" class="form-control" />
+        <span asp-validation-for="CustomerEmail"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomerNumber"></label>
+        <input asp-for="CustomerNumber" class="form-control" />
+        <span asp-validation-for="CustomerNumber"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomerAdress"></label>
+        <input asp-for="CustomerAdress" class="form-control" />
+        <span asp-validation-for="CustomerAdress"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Size" class="control-label">Size (Optional)</label>
+        <select asp-for="Size" class="form-control">
+            <option value="">Select Size (Optional)</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+        <span asp-validation-for="Size" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" min="1" />
+        <span asp-validation-for="Quantity"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Place Order</button>
+</form>

@@ -1,0 +1,117 @@
+﻿@model CLDV6212P1.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="product-image-container mb-4">
+                <img src="@Model.ImageUrl" class="img-fluid product-detail-image" alt="@Model.Name" onerror="this.src='/images/placeholder.jpg'">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="product-title">@Model.Name</h2>
+            <div class="price-container mb-3">
+                <span class="price">@Model.Price.ToString("C")</span>
+                <span class="badge @(Model.StockQuantity > 0 ? "bg-success" : "bg-warning") stock-badge">
+                    @(Model.StockQuantity > 0 ? "In Stock" : "Out of Stock")
+                </span>
+            </div>
+
+            <div class="product-description mb-4">
+                <h5>Description</h5>
+                <p>@Model.Description</p>
+            </div>
+
+            <div class="product-meta mb-4">
+                <div class="mb-2">
+                    <strong>Stock Quantity:</strong> @Model.StockQuantity
+                </div>
+                <div class="mb-2">
+                    <strong>Contract:</strong>
+                    @if (!string.IsNullOrEmpty(Model.ContractUrl))
+                    {
+                        <a href="@Model.ContractUrl"
+                           download="@($"CR7_Contract_{Model.Name.Replace(" ", "_")}.pdf")"
+                           class="btn btn-sm btn-outline-primary"
+                           target="_blank">
+                            <i class="fas fa-file-download"></i> Download Contract
+                        </a>
+                        <small class="d-block text-muted mt-1">PDF Document</small>
+                    }
+                    else
+                    {
+                        <span class="text-muted">No contract available</span>
+                    }
+                </div>
+            </div>
+
+            
+            <div class="action-buttons">
+                <a asp-action="Edit" asp-route-partitionKey="@Model.PartitionKey" asp-route-rowKey="@Model.RowKey" class="btn btn-primary">
+                    <i class="fas fa-edit"></i> Edit
+                </a>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-image-container {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .product-detail-image {
+        max-height: 400px;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .product-title {
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .price-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .price {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #b12704;
+    }
+
+    .stock-badge {
+        font-size: 0.9rem;
+        padding: 5px 10px;
+    }
+
+    .product-description {
+        padding: 15px;
+        background: #f8f9fa;
+        border-radius: 8px;
+    }
+
+    .product-meta {
+        padding: 15px;
+        background: #f8f9fa;
+        border-radius: 8px;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+</style>

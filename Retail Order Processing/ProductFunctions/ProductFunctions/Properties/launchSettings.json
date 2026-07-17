@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ProductFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7189",
+      "launchBrowser": false
+    }
+  }
+}

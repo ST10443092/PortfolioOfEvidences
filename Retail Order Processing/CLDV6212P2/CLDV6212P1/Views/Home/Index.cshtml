@@ -1,0 +1,315 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "CR7 Official Store";
+}
+
+<style>
+ 
+
+    body {
+        background: linear-gradient(135deg, #000000, #1a1a1a);
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        min-height: 100vh;
+    }
+
+    /* Hero Banner */
+    .hero-banner {
+        background: url('https://wallpapers.com/images/hd/cristiano-ronaldo-portugal-national-team-4k-9f8n8b5fzq8p4n1v.jpg') center/cover no-repeat;
+        padding: 120px 20px;
+        border-radius: 16px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+
+        .hero-banner::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            border-radius: 16px;
+        }
+
+        .hero-banner h1,
+        .hero-banner p,
+        .hero-banner a {
+            position: relative;
+            z-index: 2;
+        }
+
+    /* CR7 Luxury Title */
+    .cr7-title {
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        background: linear-gradient(45deg, #DA291C, #00529F);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+
+    /* Premium Button */
+    .btn-gold {
+        background: linear-gradient(45deg, #d4af37, #f0e68c);
+        color: #111;
+        border: none;
+        font-weight: bold;
+        padding: 12px 30px;
+        border-radius: 50px;
+        transition: 0.3s ease;
+    }
+
+        .btn-gold:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+    /* Product Card */
+    .product-card {
+        border: none;
+        border-radius: 16px;
+        background: #fff;
+        color: #111;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+    /* Product Image */
+    .card-img-top-container {
+        position: relative;
+        height: 220px;
+        background: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .product-image {
+        max-height: 100%;
+        width: auto;
+        object-fit: contain;
+        transition: transform 0.4s ease;
+        padding: 10px;
+    }
+
+    .product-card:hover .product-image {
+        transform: scale(1.1);
+    }
+
+    /* Quick Actions */
+    .quick-actions {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 2;
+    }
+
+    .product-card:hover .quick-actions {
+        opacity: 1;
+    }
+
+    /* Text Styles */
+    .card-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+    /* Price & Stock */
+    .price {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #DA291C; /* CR7 Red */
+        font-family: 'Cinzel', serif;
+    }
+
+    .stock-badge {
+        font-size: 0.75rem;
+        padding: 5px 10px;
+        border-radius: 12px;
+    }
+
+    /* Order Now Button */
+    .btn-primary {
+        background: linear-gradient(45deg, #DA291C, #00529F);
+        border: none;
+        border-radius: 25px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(218, 41, 28, 0.4);
+            background: linear-gradient(45deg, #00529F, #DA291C);
+        }
+
+    /* Footer */
+    .text-gold {
+        color: #d4af37;
+    }
+
+    /* CR7 Theme Enhancements */
+    .cr7-badge-pending {
+        background: #00529F !important;
+        color: white;
+    }
+
+    .cr7-badge-processing {
+        background: #FFD700 !important;
+        color: #000;
+    }
+
+    .cr7-badge-completed {
+        background: #28a745 !important;
+        color: white;
+    }
+
+    .cr7-badge-cancelled {
+        background: #DA291C !important;
+        color: white;
+    }
+
+    /* Animation */
+    @@keyframes cr7Pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.05);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .product-card {
+        animation: cr7Pulse 0.6s ease;
+    }
+
+    /* Responsive Design */
+    @@media (max-width: 768px) {
+        .hero-banner {
+            padding: 80px 20px;
+        }
+
+            .hero-banner h1 {
+                font-size: 2rem;
+            }
+
+        .product-card {
+            margin-bottom: 1.5rem;
+        }
+    }
+</style>
+
+<div class="container-fluid">
+
+    <!-- Hero Banner -->
+    <!-- Include Google Font for Luxury Title -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Only styles the hero title */
+        .cr7-title {
+            font-family: 'Cinzel', serif; /* Luxury, Roman-inspired font */
+            font-weight: 700;
+            font-size: 4rem; /* Hero size */
+            background: linear-gradient(45deg, #d4af37, #ffd700, #006600); /* Gold gradient with Portuguese green hint */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7); /* Subtle shadow for depth */
+        }
+    </style>
+
+    <div class="hero-banner text-center text-white mb-5">
+        <h1 class="display-3 fw-bold cr7-title">The 7th Era</h1>
+        <p class="lead">Luxury • Performance • Legacy</p>
+        <a asp-action="Create" class="btn btn-lg btn-gold mt-3">
+            <i class="fas fa-plus"></i> Add New Product
+        </a>
+    </div>
+
+
+    <!-- Product Grid -->
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card h-100 product-card">
+                    <div class="card-img-top-container">
+                        <img src="@item.ImageUrl" class="card-img-top product-image" alt="@item.Name" onerror="this.src='https://via.placeholder.com/300x200?text=CR7+Product'">
+                        <div class="quick-actions">
+                            <a asp-action="Edit" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey"
+                               class="btn btn-sm btn-outline-light" title="Edit">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a asp-action="Details" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey"
+                               class="btn btn-sm btn-outline-warning" title="Details">
+                                <i class="fas fa-info-circle"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-partitionKey="@item.PartitionKey" asp-route-rowKey="@item.RowKey"
+                               class="btn btn-sm btn-outline-danger" title="Delete">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-truncate" title="@item.Description">@item.Description</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">@item.Price.ToString("C")</span>
+                            <span class="badge @(item.StockQuantity > 0 ? "bg-success" : "bg-warning") stock-badge">
+                                @(item.StockQuantity > 0 ? "In Stock" : "Low Stock")
+                            </span>
+                        </div>
+                        <div class="mt-2">
+                            <small class="text-muted">Qty: @item.StockQuantity</small>
+                        </div>
+                        <a asp-controller="Orders"
+                           asp-action="Create"
+                           asp-route-productId="@item.RowKey"
+                           asp-route-productName="@item.Name"
+                           asp-route-price="@item.Price"
+                           class="btn btn-primary btn-block mt-3">
+                            <i class="fas fa-shopping-cart"></i> Order Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 mb-3">
+        <p class="text-gold mb-0">© 2025 CR7 Official Store. All Rights Reserved.</p>
+    </footer>
+</div>
+
+@section Scripts {
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+}
