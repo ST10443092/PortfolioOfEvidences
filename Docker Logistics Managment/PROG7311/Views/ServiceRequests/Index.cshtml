@@ -1,0 +1,79 @@
+﻿@using PROG7311.Services
+@model IEnumerable<PROG7311.Models.ServiceRequest>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="page-header">
+    <div>
+        <h1 class="page-title">Service Requests</h1>
+        <p class="page-subtitle">Operational queue of client service requests.</p>
+    </div>
+</div>
+
+<div class="action-bar mb-3">
+    <a asp-action="Create" class="btn btn-primary">Create Request</a>
+</div>
+<div class="content-panel">
+<table class="table mb-0">
+    <thead>
+        <tr>
+            <th>
+                Client
+            </th>
+            <th>
+                Region
+            </th>
+            <th>
+                Service Level
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Charge (regional)
+            </th>
+            <th>
+                Amount (ZAR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client.Region)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contract.ServiceLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @CurrencyDisplay.FormatMoney(item.Cost, item.CostCurrencyCode)
+            </td>
+            <td>
+                @CurrencyDisplay.FormatZar(item.CostInZar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ServiceRequestId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ServiceRequestId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ServiceRequestId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

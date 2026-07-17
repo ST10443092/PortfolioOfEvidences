@@ -1,0 +1,119 @@
+﻿@model IEnumerable<PROG7311.Models.Contract>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="page-header">
+    <div>
+        <h1 class="page-title">Contracts</h1>
+        <p class="page-subtitle">Track contract terms, status, and signed files.</p>
+    </div>
+</div>
+
+<div class="action-bar mb-3">
+    <a asp-action="Create" class="btn btn-primary">Create Contract</a>
+</div>
+
+@{
+    var statusOptions = ViewBag.StatusOptions as List<string> ?? new List<string>();
+    string selectedStatus = ViewBag.SelectedStatus as string ?? "";
+    string startDateFrom = ViewBag.StartDateFrom as string ?? "";
+    string endDateTo = ViewBag.EndDateTo as string ?? "";
+}
+
+<form asp-action="Index" method="get" class="row g-2 mb-3 content-panel">
+    <div class="col-md-3">
+        <label for="startDateFrom" class="form-label">Start date from</label>
+        <input type="date" id="startDateFrom" name="startDateFrom" value="@startDateFrom" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label for="endDateTo" class="form-label">End date to</label>
+        <input type="date" id="endDateTo" name="endDateTo" value="@endDateTo" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label for="status" class="form-label">Contract status</label>
+        <select id="status" name="status" class="form-select">
+            <option value="">All statuses</option>
+            @foreach (var option in statusOptions)
+            {
+                if (option == selectedStatus)
+                {
+                    <option value="@option" selected>@option</option>
+                }
+                else
+                {
+                    <option value="@option">@option</option>
+                }
+            }
+        </select>
+    </div>
+    <div class="col-md-3 d-flex align-items-end gap-2">
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Clear</a>
+    </div>
+</form>
+
+<div class="content-panel">
+<table class="table mb-0">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Client)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ServiceLevel)
+            </th>
+            <th>
+                Signed agreement
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @(item.Client?.ContactDetails ?? "—")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServiceLevel)
+            </td>
+            <td>
+                @if (item.SignedAgreement != null && item.SignedAgreement.Length > 0)
+                {
+                    <a asp-action="Download" asp-route-id="@item.ContractId">Download</a>
+                }
+                else
+                {
+                    <span class="text-muted">No file</span>
+                }
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ContractId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ContractId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ContractId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

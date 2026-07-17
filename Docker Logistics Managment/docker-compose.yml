@@ -1,0 +1,44 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: prog7311-sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Prog7311!Pass2026"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+
+  api:
+    build:
+      context: .
+      dockerfile: PROG7311.Api/Dockerfile
+    container_name: prog7311-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      Database__EnsureCreated: "true"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=PROG7311Db;User Id=sa;Password=Prog7311!Pass2026;TrustServerCertificate=True;MultipleActiveResultSets=true"
+    depends_on:
+      - sqlserver
+    ports:
+      - "5097:8080"
+
+  web:
+    build:
+      context: .
+      dockerfile: PROG7311/Dockerfile
+    container_name: prog7311-web
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=PROG7311Db;User Id=sa;Password=Prog7311!Pass2026;TrustServerCertificate=True;MultipleActiveResultSets=true"
+      ApiSettings__BaseUrl: "http://api:8080/"
+    depends_on:
+      - api
+    ports:
+      - "8080:8080"
+
+volumes:
+  sqlserver-data:

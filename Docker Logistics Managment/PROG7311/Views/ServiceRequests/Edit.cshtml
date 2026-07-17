@@ -1,0 +1,151 @@
+﻿@model PROG7311.Models.ServiceRequest
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ServiceRequest</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ServiceRequestId" />
+            <div class="form-group">
+                <label asp-for="ClientId" class="control-label"></label>
+                <select asp-for="ClientId" class="form-control" asp-items="ViewBag.ClientId" id="clientSelect"></select>
+                <span asp-validation-for="ClientId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Region</label>
+                <input class="form-control" id="clientRegion" value="@((string)(ViewData["ClientRegion"] ?? ""))" readonly />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Regional currency</label>
+                <input class="form-control" id="currencyInfo" value="" readonly />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Service Level</label>
+                <input class="form-control" id="serviceLevel" value="@((string)(ViewData["ServiceLevel"] ?? ""))" readonly />
+            </div>
+            <div class="alert alert-warning mt-2 d-none" id="contractBlockedMsg"></div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Cost" id="costLabel">Cost</label>
+                <input asp-for="Cost" class="form-control" id="costInput" inputmode="decimal" />
+                <span asp-validation-for="Cost" class="text-danger"></span>
+                <small class="text-muted d-block mt-1">Enter this charge in the client’s regional currency (shown above).</small>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Estimated amount (ZAR)</label>
+                <input class="form-control" id="zarPreviewAmount" readonly placeholder="—" />
+                <small class="text-muted d-block mt-1" id="zarPreviewDetail"></small>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status" class="form-control">
+                    <option value="">-- Select Status --</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" id="submitBtn" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        let zarPreviewTimer = null;
+
+        function debounceZarPreview() {
+            clearTimeout(zarPreviewTimer);
+            zarPreviewTimer = setTimeout(refreshZarPreview, 450);
+        }
+
+        async function refreshZarPreview() {
+            const clientId = document.getElementById('clientSelect').value;
+            const raw = document.getElementById('costInput').value;
+            const amount = parseFloat(raw);
+            const out = document.getElementById('zarPreviewAmount');
+            const detail = document.getElementById('zarPreviewDetail');
+            if (!clientId || raw === '' || Number.isNaN(amount)) {
+                out.value = '';
+                detail.textContent = '';
+                return;
+            }
+            const res = await fetch(`@Url.Action("CostZarPreview", "ServiceRequests")?clientId=${clientId}&amount=${encodeURIComponent(raw)}`);
+            const data = await res.json();
+            if (data.error) {
+                out.value = '';
+                detail.textContent = data.error;
+                return;
+            }
+            out.value = data.zarFormatted ?? '';
+            detail.textContent = data.detail ?? '';
+        }
+
+        async function loadClientInfo(clientId) {
+            if (!clientId) {
+                document.getElementById('clientRegion').value = '';
+                document.getElementById('serviceLevel').value = '';
+                document.getElementById('currencyInfo').value = '';
+                document.getElementById('costLabel').textContent = 'Cost';
+                document.getElementById('zarPreviewAmount').value = '';
+                document.getElementById('zarPreviewDetail').textContent = '';
+                const msg = document.getElementById('contractBlockedMsg');
+                msg.classList.add('d-none');
+                msg.textContent = '';
+                document.getElementById('submitBtn').disabled = false;
+                return;
+            }
+
+            const res = await fetch(`@Url.Action("ClientInfo", "ServiceRequests")?clientId=${clientId}`);
+            if (!res.ok) return;
+            const data = await res.json();
+            document.getElementById('clientRegion').value = data.region ?? '';
+            document.getElementById('serviceLevel').value = data.serviceLevel ?? '';
+            const code = data.currencyCode ?? '';
+            const sym = data.currencySymbol ?? '';
+            document.getElementById('currencyInfo').value = code ? `${code} (${sym})` : '';
+            document.getElementById('costLabel').textContent = code ? `Cost (${code})` : 'Cost';
+
+            const canSubmit = data.canSubmitServiceRequest ?? false;
+            const status = data.contractStatus ?? '';
+            const msg = document.getElementById('contractBlockedMsg');
+            const submit = document.getElementById('submitBtn');
+            if (!canSubmit) {
+                msg.textContent = status
+                    ? `This client cannot submit service requests because their contract status is '${status}'.`
+                    : 'This client cannot submit service requests because they do not have an eligible contract.';
+                msg.classList.remove('d-none');
+                submit.disabled = true;
+            } else {
+                msg.classList.add('d-none');
+                msg.textContent = '';
+                submit.disabled = false;
+            }
+
+            await refreshZarPreview();
+        }
+
+        const select = document.getElementById('clientSelect');
+        select.addEventListener('change', (e) => loadClientInfo(e.target.value));
+        document.getElementById('costInput').addEventListener('input', debounceZarPreview);
+        loadClientInfo(select.value);
+    </script>
+}

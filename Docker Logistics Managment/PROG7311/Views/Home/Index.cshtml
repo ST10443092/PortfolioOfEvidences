@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="hero">
+    <h1 class="display-5 fw-bold">Global Logistics Management System</h1>
+    <p class="lead mb-2">
+        Manage client relationships, contracts, and service requests from one streamlined platform.
+        Built to support visibility, operational control, and reliable service delivery across regions.
+    </p>
+    <p class="mb-0">
+        Sign in to continue, or create a client account to get started.
+    </p>
+    <div class="hero-actions">
+        <a asp-controller="Login" asp-action="Index" class="btn btn-primary btn-lg">Login</a>
+        <a asp-controller="Users" asp-action="Create" class="btn btn-success btn-lg">Register</a>
+    </div>
+</div>
+
+<section class="about-section">
+    <h2 class="about-title">About Us</h2>
+    <p>
+        We are a global logistics operations team focused on reliable contract-driven service delivery.
+        Our platform centralizes the core workflow between clients and operations teams so that every engagement
+        is traceable, measurable, and aligned with service-level expectations.
+    </p>
+    <ul class="feature-list">
+        <li>Centralized client and contract management for better account control.</li>
+        <li>Service request tracking linked to active contracts and client context.</li>
+        <li>Operational transparency through consistent status and progress visibility.</li>
+        <li>Designed to support regional operations and scalable growth.</li>
+    </ul>
+</section>
+
+<section class="row mt-4 g-3">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Client Management</h5>
+                <p class="card-text">Capture and maintain client details to keep every engagement accurate and accessible.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Contract Oversight</h5>
+                <p class="card-text">Manage contract status and timelines with structured, searchable records.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Service Delivery</h5>
+                <p class="card-text">Track service requests and keep operations aligned with agreed service levels.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</div>

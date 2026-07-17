@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Client Service";
+}
+
+<div class="page-header">
+    <div>
+        <h1 class="page-title">Client Service</h1>
+        <p class="page-subtitle">Quick actions for onboarding, contracts, and service requests.</p>
+    </div>
+</div>
+
+<div class="dashboard-grid">
+    <div class="dashboard-card">
+        <h5>Register Client Profile</h5>
+        <p>Create or complete your client profile details.</p>
+        <a asp-controller="Clients" asp-action="Create" asp-route-fromClient="true" class="btn btn-primary">Register</a>
+    </div>
+    <div class="dashboard-card">
+        <h5>Upload Contract</h5>
+        <p>Submit your signed agreement to activate service flow.</p>
+        <a asp-controller="Contracts" asp-action="Create" asp-route-fromClient="true" class="btn btn-primary">Upload Contract</a>
+    </div>
+    <div class="dashboard-card">
+        <h5>Request Service</h5>
+        <p>Log a new service request linked to your contract.</p>
+        <a asp-controller="ServiceRequests" asp-action="Create" asp-route-fromClient="true" class="btn btn-primary">Request Service</a>
+    </div>
+</div>

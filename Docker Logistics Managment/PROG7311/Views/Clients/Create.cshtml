@@ -1,0 +1,54 @@
+﻿@model PROG7311.Models.Client
+
+@{
+    ViewData["Title"] = "Create";
+    var fromClient = ViewBag.FromClient is bool isFromClient && isFromClient;
+}
+
+<h1>Create</h1>
+
+<h4>Client</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <input type="hidden" name="fromClient" value="@fromClient.ToString().ToLowerInvariant()" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactDetails" class="control-label"></label>
+                <input asp-for="ContactDetails" class="form-control" />
+                <span asp-validation-for="ContactDetails" class="text-danger"></span>
+            </div>
+            <select asp-for="Region" class="form-control">
+                <option value="">-- Select Region --</option>
+                <option value="USA">USA</option>
+                <option value="UK">United Kingdom</option>
+                <option value="European Union">European Union</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="South Africa">South Africa</option>
+            </select>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (!fromClient)
+{
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
